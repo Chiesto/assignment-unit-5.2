@@ -1,4 +1,4 @@
-header{
+/*header{
     background-color: navy;
     color: orange;
     text-align: center;
@@ -12,3 +12,30 @@ body{
     background-repeat: repeat;
     margin: 0;
 }
+Doing all questions with element names 
+*/
+.header{
+    background-color: navy;
+    color: orange;
+    text-align: center;
+}
+.main{
+    background-color: lightgrey;
+    padding:1em;
+}
+.main-body{
+    background-image: url("record.png");
+    background-repeat: repeat;
+    margin: 0;
+}
+.questions{
+    color: #39ff14;
+    background-color: black;
+    list-style-type: disc;
+    margin-left: 20px; /*pushes the class questions away from surrounding objects*/
+}
+.questions li{
+    padding-left: 100px;/*pushes away from the bullet point*/
+}
+/* doing all questions with style classes instead of element names */
+
